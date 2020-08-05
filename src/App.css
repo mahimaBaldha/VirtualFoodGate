@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,57 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.navbar{
+  background-color: rgb(37, 35, 35);
+  padding: 1.5%;
+  color: aquamarine;
+  text-align: center;
 }
+
+.btnstyle {
+  /* float: right; */
+  background-color: rgb(37, 35, 35);
+  color: aquamarine;
+  margin: 4px;
+}
+
+.auth {
+  text-align: right;
+  margin-top: 7px;
+  /* border: 1px solid blueviolet; */
+}
+
+.fooditemsDiv {
+  /* border: 1px solid blueviolet; */
+  margin: 4%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.columBox {
+  width: 25%;
+  padding: 2%;
+  margin: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  /* border: 2px solid chocolate; */
+}
+
+.rowBox{
+  height: 100%;
+  /* flex: 1; */
+  /* border: 1px solid cadetblue; */
+}
+.img {
+  width: 100%;
+  height: 270px;
+}
+/* .imgbox {
+  border: 1px solid blue;
+  width: 70%;
+  margin: 1%;
+  
+} */
