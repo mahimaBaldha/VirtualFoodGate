@@ -3,7 +3,12 @@ import { Link } from 'react-router-dom';
 
 class AddressInfo extends Component {
     state = {
-        userInfo: ''
+        userName: '',
+        email: '',
+        address: '',
+        city: '',
+        state: '',
+        zipCode: ''
     }
 
     onChange = e => {
@@ -20,8 +25,8 @@ class AddressInfo extends Component {
     return (
       <div className="checkoutBox">
         <form onSubmit={this.postUserInfo.bind(this)}>
-            <input type="text" name="username" value={this.props.userInfo} placeholder="Username" className="inputcss" onChange={this.onChange}/><br/>
-            <input type="text" name="email" value={this.props.userInfo} placeholder="Email" className="inputcss" onChange={this.onChange}/>
+            <input type="text" name="username" value={this.state.userInfo} placeholder="Username" className="inputcss" onChange={this.onChange}/><br/>
+            <input type="text" name="email" value={this.state.userInfo} placeholder="Email" className="inputcss" onChange={this.onChange}/>
             <h3>Shipping Information</h3>
             <textarea type="text" name="address" value={this.props.userInfo} placeholder="Address" className="address"/><br/>
             <input type="text" name="city" value={this.props.userInfo} placeholder="City" className="inputcss"/><br/>
