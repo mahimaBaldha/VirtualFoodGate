@@ -5,17 +5,29 @@
   text-align: center;
 }
 
-.btnstyle {
-  /* float: right; */
-  background-color: rgb(37, 35, 35);
-  color: aquamarine;
-  margin: 4px;
-}
-
 .auth {
   text-align: right;
   margin-top: 7px;
   /* border: 1px solid blueviolet; */
+}
+
+.viewCartbtnbox {
+  width: 85%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.viewCartbtn {
+  /* margin: 2% 0% 2% 80%; */
+  color: black;
+  justify-content: center;
+  text-decoration: none;
+  height: 3%;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(149, 228, 202);
+  border: 1px solid rgb(75, 74, 74);
 }
 
 .fooditemsDiv {
@@ -60,7 +72,10 @@
   border: none;
 }
 
-
+.addedCart {
+  border: 1px solid tomato;
+  background-color: thistle;
+}
 
 
 /* cart page css */
@@ -129,7 +144,6 @@
 }
 
 
-
 /* checkout page css */
 .checkoutBox {
   padding: 2%;
@@ -150,4 +164,22 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+
+/* Address info css */
+.inputcss {
+  border: 1px solid rgb(215, 213, 213);
+  width: 93%;
+  height: 30px;
+  margin: 2% 3%;
+  padding: 1%;
+}
+
+.address{
+  height: 90px;
+  border: 1px solid rgb(215, 213, 213);
+  width: 93%;
+  margin: 2% 3%;
+  padding: 1%;
 }

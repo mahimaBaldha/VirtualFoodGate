@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import axios from 'axios';
+// import axios from 'axios';
 
 const Context = React.createContext();
 
@@ -45,15 +45,15 @@ export class Provider extends Component {
     ]
 };
 
-//   componentDidMount() {
-//     // console.log(this.state);
-//     axios.get(`https://surveybyhv.herokuapp.com/survey/`)
-//       .then(res => {
-//         console.log("api data",res);
-//         // this.setState({ food_list: res.data });
-//       })
-//       .catch(error => console.log(error));
-//   }
+  // componentDidMount() {
+  //   console.log(this.state);
+  //   axios.get(`https://cors-anywhere.herokuapp.com/http://localhost:8000/api/items`)
+  //     .then(res => {
+  //       console.log("api data",res);
+  //       // this.setState({ food_list: res.data });
+  //     })
+  //     .catch(error => console.log(error));
+  // }
   render() {
     return (
       <Context.Provider value={this.state}>
